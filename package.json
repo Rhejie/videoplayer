@@ -1,5 +1,5 @@
 {
-  "name": "videoplayer",
+  "name": "vp-revdojo",
   "version": "0.0.0",
   "private": false,
   "type": "module",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@vimeo/player": "^2.23.0",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
     "video.js": "^8.12.0",
     "videojs-youtube": "^3.0.1",
     "vite-plugin-dts": "^3.9.1",
@@ -26,12 +27,12 @@
   "files": [
     "dist"
   ],
-  "module": "./dist/revdojo-video-player-lib.js",
-  "main": "./dist/revdojo-video-player-lib.umd.cjs",
+  "module": "./dist/vp-revdojo.js",
+  "main": "./dist/vp-revdojo.umd.cjs",
   "exports": {
     ".": {
-      "import": "./dist/revdojo-video-player-lib.js",
-      "require": "./dist/revdojo-video-player-lib.umd.cjs"
+      "import": "./dist/vp-revdojo.js",
+      "require": "./dist/vp-revdojo.umd.cjs"
     },
     "./dist/style.css": {
       "import": "./dist/style.css",
